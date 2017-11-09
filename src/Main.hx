@@ -51,8 +51,6 @@ class Main
 			Sys.exit(1);
 		}
 		
-		return;
-		
 		if ( !FileSystem.exists(libPath) )
 		{
 			FileSystem.createDirectory(libPath);
