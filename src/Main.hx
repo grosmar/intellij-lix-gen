@@ -150,7 +150,7 @@ class Main
 		{
 			for ( i in libNames )
 			{
-				rootComonent.addChild( Xml.parse('    <orderEntry type="library" name="${i}" level="project" />\n') );
+				rootComonent.addChild( Xml.parse('    <orderEntry type="library" name="lix:${i}" level="project" />\n') );
 			}
 		}
 		
