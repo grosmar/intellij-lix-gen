@@ -1,0 +1,27 @@
+{
+  "name": "intellij-lix-gen",
+  "version": "0.0.1",
+  "description": "Add lix dependencies to IntelliJ project, so code completion will work, without dealing with manual library dependency maintenance",
+  "main": "bin/intellij-lix-gen.n",
+  "scripts": {
+    "install": "npm run build",
+	"build": "nekotools boot intellij-lix-gen.n",
+	"compile": "haxelib newrepo && haxelib install build.hxml --always && haxe build.hxml && echo Run with command 'npm run start'",
+	"start": "neko intellij-lix-gen.n",
+	"help": "neko intellij-lix-gen.n --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grosmar/intellij-lix-gen.git"
+  },
+  "keywords": [
+    "lix",
+    "intellij"
+  ],
+  "author": "grosmar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grosmar/intellij-lix-gen/issues"
+  },
+  "homepage": "https://github.com/grosmar/intellij-lix-gen#readme"
+}

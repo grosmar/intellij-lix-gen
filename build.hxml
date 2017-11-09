@@ -1,0 +1,4 @@
+-cp src
+-lib arguable
+-main Main
+-neko intellij-lix-gen.n

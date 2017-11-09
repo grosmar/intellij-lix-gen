@@ -1,0 +1,19 @@
+{
+	"name": "intellij-lix-gen",
+	"license": "MIT",
+	"description": "Add lix dependencies to IntelliJ project, so code completion will work, without dealing with manual library dependency maintenance",
+	"tags": [
+		"lix",
+		"intellij"
+	],
+	"classPath": "src",
+	"contributors": [
+		"grosmar"
+	],
+	"releasenote": "Initial commit",
+	"version": "0.0.1",
+	"url": "https://github.com/grosmar/intellij-lix-gen/",
+	"dependencies": {
+		"arguable": "1.0.2"
+	}
+}
