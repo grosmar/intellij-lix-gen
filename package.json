@@ -4,7 +4,7 @@
   "description": "Add lix dependencies to IntelliJ project, so code completion will work, without dealing with manual library dependency maintenance",
   "main": "bin/intellij-lix-gen.n",
   "scripts": {
-    "install": "npm run build",
+    "install": "",
 	"build": "nekotools boot intellij-lix-gen.n",
 	"compile": "haxelib newrepo && haxelib install build.hxml --always && haxe build.hxml && echo Run with command 'npm run start'",
 	"start": "neko intellij-lix-gen.n",
